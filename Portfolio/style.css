@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #1bad00, #4d4dff);
+    color: #F5F5F5;
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+}
+
+h1 {
+     color: #000000;
+}
+
+h2 {
+    color: #000001;
+    font-size: 25px;
+}
+
+p {
+    color: #F5F5F5;
+    font-size: 20px;
+}
+
+.section1 {
+    display: flex;
+    height: 25vh;
+    background-color: #1bad00;
+    padding: 40px 20px;
+    margin-top: 35px;
+}
+
+.secao-hobbies {
+    background-color: #1bad00;
+    padding: 40px 20px;
+    margin-top: 35px;
+}
+
+.secao-lugares {
+    background-color: #1bad00;
+    padding: 40px 20px;
+    margin-top: 35px;
+}
+
+.secao-sonho {
+    background-color: #1bad00;
+    padding: 40px 20px;
+    margin-top: 35px;
+}
+
+img {
+    transition: transform 0.3s ease;
+    align-items: center;
+    margin-right: 23px;
+}
+
+img:hover {
+    transform: scale(1.1);
+    image-rendering: center;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 50px;
+    background-color: #f0f0f0; 
+}
+
+.galeria img:hover {
+    max-width: 200px;
+    height: auto;
+    border: 5px solid white; 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    transition: 0.3s; 
+}
+
+
+
+.galeria img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.5);
+}
+
+/* =============================================================================================================== */
+#topMenu {
+    display: flex;
+    background-color: yellowgreen;
+}
+
+#topMenu li {
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    padding: 18px;
+}
+            
+#topMenu li:first-child {
+    margin-right: auto;
+}
+            
+.centralize {
+    margin: auto;
+    text-align: center;
+}
+
+/* ======================================================================================================================= */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 25px;
+    background-color: #2A2726;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #585858;
+    transform: scale(1.05);
+}
+
+.secao {
+    padding: 60px 20px;
+}
+
